@@ -4,7 +4,7 @@
 
 ADB Admin is a powerful and intuitive web-based application for managing and controlling Android devices using the Android Debug Bridge (ADB). It provides a user-friendly interface to perform a wide range of actions, from simple tasks like installing apps to more advanced operations like network scanning and data extraction.
 
-![ADB Admin Screenshot](https://raw.githubusercontent.com/Nepstro/ADB-Admin-by-Nepstro/main/screenshots/screenshot.png)
+![ADB Admin Screenshot](https://github.com/Nepstro/ADB-Admin-by-Nepstro/blob/main/main/screenshots/Screenshot.png)
 
 ## ✨ Features
 
