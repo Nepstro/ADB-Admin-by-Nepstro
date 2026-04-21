@@ -4,7 +4,7 @@
 
 ADB Admin is a powerful and intuitive web-based application for managing and controlling Android devices using the Android Debug Bridge (ADB). It provides a user-friendly interface to perform a wide range of actions, from simple tasks like installing apps to more advanced operations like network scanning and data extraction.
 
-![ADB Admin Screenshot](https://github.com/Nepstro/ADB-Admin-by-Nepstro/blob/main/main/screenshots/Screenshot.png)
+![ADB Admin Screenshot](https://raw.githubusercontent.com/Nepstro/ADB-Admin-by-Nepstro/main/screenshots/Screenshot.png)
 
 ## ✨ Features
 
@@ -76,24 +76,36 @@ ADB Admin is packed with features to make Android device management easier:
 
 ### Installation & Usage
 
-1.  **Clone the repository:**
+Running the application from the GitHub repository is the standard way to get started. This process involves "cloning" the repository, which is essentially downloading the project files using Git.
+
+**1. Clone the Repository**
+
+Open your terminal or command prompt and run the following command. This will create a new folder called `ADB-Admin-by-Nepstro` with all the project files.
+
+```bash
+git clone https://github.com/Nepstro/ADB-Admin-by-Nepstro.git
+cd ADB-Admin-by-Nepstro
+```
+
+**2. Run the Launcher**
+
+The project includes convenient launcher scripts that will help you install dependencies and run the application.
+
+*   **On Windows:**
+    ```cmd
+    run_app.cmd
+    ```
+*   **On Linux/macOS:**
     ```bash
-    git clone https://github.com/Nepstro/ADB-Admin-by-Nepstro.git
-    cd ADB-Admin-by-Nepstro
+    ./run_app.sh
     ```
 
-2.  **Install the required Python libraries:**
-    ```bash
-    pip install -r requirements.txt
-    ```
+**3. Install Dependencies and Launch**
 
-3.  **Run the application:**
-    *   On **Windows**, execute `run_app.cmd`.
-    *   On **Linux/macOS**, execute `run_app.sh`.
-
-    These scripts will start the Streamlit web server.
-
-4.  **Open your web browser** and navigate to the local URL provided in the terminal (usually `http://localhost:8501`).
+When you run the script, a menu will appear.
+*   Choose option **1** first to install all the required Python libraries.
+*   Once the installation is complete, choose option **2** to start the ADB Admin web application.
+*   Your web browser should open automatically to the application's URL (usually `http://localhost:8501`).
 
 ## 🤝 Contributing
 
