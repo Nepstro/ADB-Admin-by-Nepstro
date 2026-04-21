@@ -1,0 +1,154 @@
+/* style.css */
+
+/* Overall page background and text color */
+body {
+    background-color: #000000; /* Black background */
+    color: #00FF00; /* Bright green text */
+    font-family: 'monospace', 'Courier New', Courier, sans-serif; /* Monospace font */
+}
+
+/* Streamlit main content area */
+.stApp {
+    background-color: #000000; /* Ensure main app area is black */
+    color: #00FF00;
+    font-family: 'monospace', 'Courier New', Courier, sans-serif;
+}
+
+/* Sidebar styling */
+.stSidebar {
+    background-color: #0A0A0A; /* Slightly darker green-black for sidebar */
+    color: #00FF00;
+    font-family: 'monospace', 'Courier New', Courier, sans-serif;
+}
+
+/* Headers */
+h1, h2, h3, h4, h5, h6 {
+    color: #00FF00; /* Green headers */
+    font-family: 'monospace', 'Courier New', Courier, sans-serif;
+}
+
+/* Buttons */
+.stButton>button {
+    background-color: #003300; /* Darker green button background */
+    color: #00FF00; /* Bright green button text */
+    border: 1px solid #00FF00; /* Green border */
+    font-family: 'monospace', 'Courier New', Courier, sans-serif;
+}
+.stButton>button:hover {
+    background-color: #005500; /* Lighter green on hover */
+    color: #FFFFFF; /* White text on hover for contrast */
+    border-color: #FFFFFF;
+}
+
+/* Text inputs, selectboxes, textareas */
+.stTextInput>div>div>input,
+.stSelectbox>div>div>div>div>input,
+.stTextArea>div>div>textarea {
+    background-color: #001100; /* Very dark green input background */
+    color: #00FF00;
+    border: 1px solid #00FF00;
+    font-family: 'monospace', 'Courier New', Courier, sans-serif;
+}
+
+/* Info, Warning, Error boxes */
+.stAlert {
+    background-color: #001100 !important; /* Dark background for alerts */
+    color: #00FF00 !important; /* Green text for alerts */
+    border-left: 5px solid #00FF00 !important; /* Green border */
+    font-family: 'monospace', 'Courier New', Courier, sans-serif;
+}
+.stAlert > div > div > p {
+    color: #00FF00 !important; /* Ensure text inside alert is green */
+}
+
+/* Specific alert types for better visual distinction */
+.stAlert.info {
+    border-left-color: #00FF00 !important; /* Green for info */
+}
+.stAlert.warning {
+    border-left-color: #FFFF00 !important; /* Yellow for warning */
+    color: #FFFF00 !important;
+}
+.stAlert.error {
+    border-left-color: #FF0000 !important; /* Red for error */
+    color: #FF0000 !important;
+}
+
+/* Code blocks */
+code {
+    background-color: #001100;
+    color: #00FF00;
+    border: 1px solid #00FF00;
+    padding: 0.2em 0.4em;
+    border-radius: 3px;
+    font-family: 'monospace', 'Courier New', Courier, sans-serif;
+}
+
+/* Dataframes/tables */
+.stDataFrame, .stTable {
+    color: #00FF00;
+    background-color: #001100;
+    border: 1px solid #00FF00;
+    font-family: 'monospace', 'Courier New', Courier, sans-serif;
+}
+.stDataFrame th, .stTable th {
+    background-color: #003300;
+    color: #00FF00;
+    border-bottom: 1px solid #00FF00;
+}
+.stDataFrame td, .stTable td {
+    border-top: 1px solid #003300;
+}
+
+/* Markdown links */
+a {
+    color: #00FFFF; /* Cyan for links */
+}
+
+/* Slider */
+.stSlider > div > div > div > div {
+    background-color: #00FF00; /* Green slider track */
+}
+.stSlider > div > div > div > div > div {
+    background-color: #00FF00; /* Green slider handle */
+}
+
+/* Toggle switch */
+.stCheckbox > label > div:first-child {
+    background-color: #001100;
+    border: 1px solid #00FF00;
+}
+.stCheckbox > label > div:first-child > div {
+    background-color: #00FF00;
+}
+.stCheckbox > label > div:last-child {
+    color: #00FF00;
+}
+
+/* Expander */
+.streamlit-expanderHeader {
+    background-color: #003300;
+    color: #00FF00;
+    border: 1px solid #00FF00;
+    font-family: 'monospace', 'Courier New', Courier, sans-serif;
+}
+.streamlit-expanderContent {
+    background-color: #001100;
+    color: #00FF00;
+    border: 1px solid #00FF00;
+    border-top: none;
+    font-family: 'monospace', 'Courier New', Courier, sans-serif;
+}
+
+/* Toast messages */
+.st-toast {
+    background-color: #001100 !important;
+    color: #00FF00 !important;
+    border: 1px solid #00FF00 !important;
+    font-family: 'monospace', 'Courier New', Courier, sans-serif;
+}
+
+/* Spinner */
+.stSpinner > div > div {
+    color: #00FF00;
+}
