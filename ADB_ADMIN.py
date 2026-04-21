@@ -1294,7 +1294,7 @@ with tabs[11]:
     st.subheader("Credits & Licensing")
     st.markdown("""
     *   **Developer:** Samith Hettiarachchi ( Nepstro )
-    *   **GitHub:** [https://github.com/Nepstro](https://github.com/Nepstro)
+    *   **GitHub:** [https://github.com/Nepstro/ADB-Admin-by-Nepstro](https://github.com/Nepstro/ADB-Admin-by-Nepstro)
     
     This program is free software, distributed under the terms of the **GNU General Public License v3.0**.
     """)

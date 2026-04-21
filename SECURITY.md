@@ -12,7 +12,7 @@ currently being supported with security updates. -->
 
 ## Reporting a Vulnerability
 
-To report a vulnerability, please open an issue on our [GitHub Issues page](https://github.com/Nepstro/ADB-Admin/issues). We take all security reports seriously and will investigate them promptly.
+To report a vulnerability, please open an issue on our [GitHub Issues page](https://github.com/Nepstro/ADB-Admin-by-Nepstro/issues). We take all security reports seriously and will investigate them promptly.
 
 <!-- Use this section to tell people how to report a vulnerability.
 
